@@ -16,34 +16,30 @@ Original plugins often fail in modern Blender versions due to major changes in t
 
 ## 🛠️ Installation
 
-1.  **Download** the `.py` script from this repository.
+1.  **Download** the `.zip` archive from this repository.
 2.  Open **Blender 5.1**.
 3.  Go to `Edit` > `Preferences` > `Add-ons`.
 4.  Click **Install...** and select the downloaded script.
-5.  Enable **Import-Export: Megascans Plugin**. ✅
-6.  Press `N` in the 3D Viewport to find the **Megascans** tab and click **Start Megascans Link**. 🔌
+5.  Enable **Megascans Plugin**. ✅
+6.  Press `F3` to find the **megascans** tab and click **Start Megascans Link**. 🔌
 
 ---
 
 ## 📖 How to Use
 
-### 1. Configure Quixel Bridge 🌐
-* In **Quixel Bridge**, go to `Edit` > `Export Settings`.
-* **Export Target**: `Custom Socket Export`.
-* **Port**: `28888`.
 
-### 2. Importing Assets 📦
+### 1. Importing Assets 📦
 * Simply hit **Export** in Bridge. 
 * The plugin will build the node network, connect textures, and set up the transparency automatically.
 
-### 3. Smart Material Replacement 🎯
+### 2. Smart Material Replacement 🎯
 * To update a specific part of your model:
     1.  Select your object in Blender.
     2.  Highlight the **Material Slot** you want to change.
     3.  Hit **Export** in Bridge.
     4.  The plugin will replace only the active slot! 🦄
 
-### 4. Adjusting Translucency 💡
+### 3. Adjusting Translucency 💡
 * In the **Shader Editor**, you will find a **"Translucency Strength"** (Value node).
 * Adjust this slider to control how much light passes through the surface (perfect for vegetation).
 
